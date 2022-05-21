@@ -1,0 +1,16 @@
+header nav.navbar {
+    background-color: #eae2b7;
+}
+
+header img {
+    width: 3em;
+    height: 2em;
+}
+
+div.bg-image {
+    height: 60vh;
+}
+
+div.bg-image {
+    background-image: linear-gradient(to right, rgba(212, 188, 52, 0.5), rgba(29, 29, 25, 0.1)), url("/images/banner.jpg");
+}
