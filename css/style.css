@@ -26,3 +26,13 @@ div.bg-image {
 h1 {
     font-family: 'Amatic SC', cursive;
 }
+
+/* 2nd Section */
+
+section:nth-child(2) article:nth-child(even) {
+    background-color: #fffaf7;
+}
+
+section:nth-child(2) article:nth-child(odd) {
+    background-color: #fdf3ed;
+}

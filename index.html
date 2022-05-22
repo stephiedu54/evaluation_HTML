@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>SPA Copycat</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <!-- Google Fonts -->
+    <!-- Import Typo Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -22,19 +27,19 @@
     <header>
 
       <!-- Start : Navbar -->
-      <nav class="navbar navbar-light navbar-expand-sm">
+      <nav class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container-sm">
           <a class="navbar-brand" href="#">
             <img src="images/logo.svg" alt="">
           </a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <div class="collapse navbar-collapse" id="navbarDropdown">
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#">
@@ -77,13 +82,13 @@
     <main>
 
         <!-- Start : First Section -->
-        <section>
+        <section class="pt-5">
           <div class="row">
             <div class="bg-image py-5">
               <div class="container-md">
                 <div class="row">
                   <div class="col-md-6 text-white">
-                      <h1>Donnons-leur autant qu'ils nous apportent</h1>
+                      <h1 class="fw-bold text-uppercase">Donnons-leur autant qu'ils nous apportent</h1>
                       <p>Pour toutes les fois où ils nous ont sauvé la mise et nous ont apporté tendresse, joie, réconfort. Parce qu'ils le méritent tant, donnons-leur autant qu'ils nous apportent !</p>
                   </div>
                 </div>
@@ -102,8 +107,59 @@
         <!-- End : First Section -->
 
         <!-- Start : Second Section -->
-        <section>
+        <section class="container-md">
 
+          <!-- Start : 1st Article -->
+          <article class="card mt-5 border-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/portes ouvertes.png" class="card-img-top" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Portes ouvertes printemps 2022</h3>
+                  <p class="card-text">AGENDA / Les 21 et 22 mai, la SPA vous invite dans ses refuges pour un week-end placé sous le signe de l’adoption responsable.</p>
+                  <p class="card-text">Après plus de deux ans et demi d’absence, les traditionnelles Portes Ouvertes de la SPA font leur grand retour. Les 6 200 animaux de nos refuges et Maisons SPA ont hâte de vous rencontrer et sont prêts à emménager chez vous, pour la vie !</p>
+                  <a href="#" role="button" class="btn btn-warning">Lire l'article</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- End : 1st Article -->
+
+          <!-- Start : 2nd Article -->
+          <article class="card mt-5 border-light">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Abonnez-les à l'amour</h3>
+                  <p class="card-text">En rejoignant les Compagnons SPA, vous soutenez SPA par prélèvement automatique et choisissez d'abonner les animaux qui souffrent à l'amour. Ainsi, vous permettez à nos équipes d'organiser leurs actions dans la durée pour mieux prendre soin d'eux.</p>
+                  <a href="#" role="button" class="btn btn-warning">Devenir Compagnon SPA</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/amour.jpg" class="card-img-bottom" alt="">
+              </div>
+            </div>
+          </article>
+          <!-- End : 2nd Artcle -->
+
+          <!-- Start : 3rd Article -->
+          <article class="card mt-5 border-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/ukraine.jpg" class="card-img-top" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">La SPA s’engage aux côtés des Ukrainiens</h3>
+                  <p class="card-text">Cela fait maintenant plus de 4 semaines que la guerre a éclaté en Ukraine et qu’une nouvelle crise humanitaire a débuté. La SPA quant à elle poursuit son engagement et son attachement au maintien du lien Homme-Animal en apportant son soutien aux réfugiés et à leurs animaux de compagnie.</p>
+                  <a href="#" role="button" class="btn btn-warning">Consulter la FAQ</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- End : 3rd Artcle -->
         </section>
     </main>
 
