@@ -1,6 +1,26 @@
+/* Variables  */
+
+:root {
+    --color1: #fffaf7;
+    --color2: #fdf3ed;
+}
+
 /* General */
+
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+/* Background-Color */
+
+section:nth-child(2) article:nth-child(even),
+section:nth-child(3) {
+    background-color: var(--color1);
+}
+
+section:nth-child(2) article:nth-child(odd),
+section:nth-child(4) {
+    background-color: var(--color2);
 }
 
 /* Header */
@@ -25,30 +45,23 @@ div.bg-image {
 
 h1,
 h2,
-h2 span {
+strong {
     font-family: 'Amatic SC', cursive;
 }
 
-/* 2nd Section */
-
-section:nth-child(2) article:nth-child(even) {
-    background-color: #fffaf7;
-}
-
-section:nth-child(2) article:nth-child(odd) {
-    background-color: #fdf3ed;
-}
-
 /* 3rd Section  */
-
-section:nth-child(3) {
-    background-color: #fffaf7;
-}
 
 section:nth-child(3) h2 {
     font-size: 2.5rem;
 }
 
-section:nth-child(3) h2 span {
+section:nth-child(3) h2 strong {
     color: #eb651c;
+}
+
+/* 4th Section */
+
+section:nth-child(4) img {
+    width: 100px;
+    height: 100px;
 }
