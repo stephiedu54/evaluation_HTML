@@ -5,16 +5,23 @@
     --color2: #fdf3ed;
 }
 
-/* General */
+/* Typography */
 
 * {
     font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2,
+strong {
+    font-family: 'Amatic SC', cursive;
+}
+
 /* Background-Color */
 
 section:nth-child(2) article:nth-child(even),
-section:nth-child(3) {
+section:nth-child(3),
+section:nth-child(5) {
     background-color: var(--color1);
 }
 
@@ -43,20 +50,10 @@ div.bg-image {
     background-position: center;
 }
 
-h1,
-h2,
-strong {
-    font-family: 'Amatic SC', cursive;
-}
-
 /* 3rd Section  */
 
-section:nth-child(3) h2 {
-    font-size: 2.5rem;
-}
-
 section:nth-child(3) h2 strong {
-    color: #eb651c;
+    color: var(--bs-orange);
 }
 
 /* 4th Section */
@@ -64,4 +61,15 @@ section:nth-child(3) h2 strong {
 section:nth-child(4) img {
     width: 100px;
     height: 100px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--bs-gray-800);
+}
+
+footer img {
+    width: 145px;
+    height: 70px;
 }
