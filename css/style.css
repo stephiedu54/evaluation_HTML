@@ -13,8 +13,14 @@
 
 h1,
 h2,
-strong {
+span {
     font-family: 'Amatic SC', cursive;
+}
+
+/* Color  */
+
+span {
+    color: var(--bs-orange);
 }
 
 /* Background-Color */
@@ -48,12 +54,6 @@ div.bg-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-/* 3rd Section  */
-
-section:nth-child(3) h2 strong {
-    color: var(--bs-orange);
 }
 
 /* 4th Section */
